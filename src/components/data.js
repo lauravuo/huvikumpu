@@ -1,0 +1,98 @@
+export default {
+  description: [
+    "Viihtyisä omakotitalo vapautumassa pikapuolin.",
+    "Laita viestiä ja sovi yksityisnäytöstä.",
+  ],
+  sections: [
+    {
+      name: "Huoneisto",
+      fields: {
+        Huoneluku: "3-4 h, keittiö",
+        "Kerros/kerroksia": "1/1",
+        "Asuinpinta-ala": "152 m²",
+        Osakenumerot: "xx–xx",
+        Näkymät: "lorem ipsum",
+        Saniteettitilat: "lorem ipsum",
+        Olohuone: "lorem ipsum",
+        Makuuhuone: "lorem ipsum",
+        Keittiö: "lorem ipsum",
+        Autopaikka: "lorem ipsum",
+        Säilytystilat: "lorem ipsum",
+        "Muuta kauppaan kuuluvaa": "lorem ipsum",
+        "TV-antenni": "lorem ipsum",
+        Laajakaista: "lorem ipsum",
+        Lisätietoja: "lorem ipsum",
+      },
+    },
+    {
+      name: "Taloyhtiö",
+      fields: {
+        "Yhtiön nimi": "lorem ipsum",
+        "Tontin pinta-ala": "1 217 m²",
+        "Tontin omistus": "Oma",
+        "Rakennuksen käyttöönottovuosi": "2020",
+        "Rakennuksen rakennusvuosi": "2020",
+        Rakennusmateriaali: "Kivi",
+        Kattotyyppi: "Harjakatto",
+        "Rakennuksen kate": "Tiili",
+        Asuinhuoneistot: "10 kpl, 1 160 m²",
+        Liikehuoneistot: "1 kpl, 256 m²",
+        Lämmitysjärjestelmä: "Kaukolämpö",
+        "Auton säilytys": "lorem ipsum",
+        Rajoitukset:
+          "Yhtiöllä ei ole lunastusoikeutta. Osakkailla ei ole lunastusoikeutta.",
+        "Pitkäaikaiset lainat": "123 456,78 € (31.12.2019)",
+        Vuokratuotot: "1 234,00 € (2019)",
+        Isännöitsijä: "Herra Tossavainen, p. 123",
+        Huoltoyhtiö: "Pikku-Ukko, p. 456",
+        "Rakennuksen varustetaso": "Sauna, pesutupa.",
+        "Rakennukseen tehdyt korjaukset": "lorem ipsum",
+        "Tulossa olevat korjaukset": "lorem ipsum",
+        "Ostajalle aiheutuvat kustannukset": "Ei tiedossa",
+        Energiatodistus: "B",
+      },
+    },
+    {
+      name: "Palvelut",
+      fields: {
+        Koulut: "lorem ipsum",
+        Ruokakaupat: "lorem ipsum",
+        Ravintolat: "lorem ipsum",
+        Liikenneyhteydet: "Raitiovaunu, 100 m.",
+        "Muut lähipalvelut": "lorem ipsum",
+      },
+    },
+    {
+      name: "Kustannukset",
+      fields: {
+        Hoitovastike: "123,45 €",
+        Korjausvastike: "12,34 €",
+        "Yhtiövastike yhteensä": "135,79 €",
+        Autopaikka: "12,34 €",
+        Lisätietoa: "Vesimaksu sisältyy hoitovastikkeeseen.",
+      },
+    },
+    {
+      name: "Hinta",
+      fields: {
+        "Velaton hinta": "123 456,78 €",
+        Myyntihinta: "123 456,78 €",
+        Neliöhinta: "lorem ipsum",
+        Velkaosuus: "0 €",
+        Varainsiirtovero:
+          "Varainsiirtovero 2,0 % on maksettava kaupantekotilaisuudessa.",
+        Maksutapa: "Käteinen",
+        Vapautuminen: "Välittömästi",
+      },
+    },
+    {
+      name: "Yhteystiedot",
+      fields: {
+        Myyjä: "Pippi Longstocking",
+        Sähköposti: "pippi.longstocking@example.com",
+        Puhelin: "040 123 4567",
+        Whatsapp: "358401234567",
+      },
+    },
+  ],
+};
